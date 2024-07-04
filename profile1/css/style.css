@@ -1,0 +1,456 @@
+body
+{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.logo
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img 
+{
+    border-radius: 15px;
+}
+
+.profile-card-main-container
+{
+    max-width: 576px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #35231d 55%, #4B1D06 100%);
+}
+
+.profile-card-banner-img .banner-image
+{
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+.profile-details
+{
+    padding: 20px 30px 10px;
+}
+
+.profile-details .profile-img-name
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    background: #ffffff30;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: #ffffff33 0px 0px 21px 0px;
+}
+
+.profile-img-name .user-img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.user-name-desi .user_name
+{
+    color: white;
+    font-family: 'Papyrus', fantasy, cursive;
+    font-weight: 600;
+}
+
+.user-name-desi .user-desi
+{
+    color: #fd6d16;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Papyrus', fantasy, cursive;
+}
+
+.profile-details .user-info
+{
+    color: #fffffff0;
+    margin-top: 30px;
+}
+
+.profile-social-icons a
+{
+    font-size: 24px;
+    color: #fd6d16;
+    background: white;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: #fd6d16 0px 0px 12px 0px;
+}
+
+.profile-social-icons img 
+{
+    padding: 9px;
+}
+
+.profile-social-icons a:hover
+{
+    text-decoration: none !important;
+}
+
+.profile-social-icons a:hover
+{
+    box-shadow: #ffffff 0px 0px 12px 0px;
+}
+
+.section-heading
+{
+    background-image: linear-gradient(to right, #ec6f3a, #ffc47e);
+    color: #652a09;
+    padding: 12px;
+    width: 40%;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+}
+
+.section-heading h2 
+{
+    font-family: 'Papyrus', fantasy, cursive;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.profile-contact-info .icon-wrapper 
+{
+    width: 55px;
+    height: 55px;
+    background: #ffffff30;
+    text-align: center;
+    display: flex;
+    border: 1px solid #ee7640;
+}
+
+.profile-contact-info .icon-wrapper i 
+{
+    font-size: 22px;
+    color: white;
+    margin: auto;
+}
+
+.profile-contact-info .info-wrapper
+{
+    gap: 15px;
+}
+
+.profile-contact-info .info-wrapper p 
+{
+    color: #fbb471;
+    font-size: 16px;
+}
+
+.profile-contact-info .info-wrapper h5 
+{
+    font-size: 16px;
+    color: #fffffff0 !important;
+}
+
+.service-main-wrapper
+{
+    position: relative;
+}
+
+.service-main-wrapper::before
+{
+    content: '';
+    width: 80px;
+    height: -webkit-fill-available;
+    background: #ffffff30;
+    position: absolute;
+    top: -20%;
+    left: 0;
+}
+
+.service-wrapper
+{
+    gap: 20px;
+}
+
+.service-wrapper .icon-wrapper
+{
+    width: 28%;
+    height: 70px;
+    background: black;
+    text-align: center;
+    display: flex;
+    border: 1px solid #9E9E9E;
+}
+
+.service-main-wrapper .service-description h5
+{
+    color: white;
+}
+
+.service-main-wrapper .service-description p
+{
+    color: #ffffffa6;
+    line-height: 1.4;
+}
+
+.slick-slide .gallery-img
+{
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #fbb471;
+}
+
+.slider-container .testimonial-wrapper
+{
+    background: #ffffff30;
+}
+
+.left-quote-element
+{
+    background: #461e0b;
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px;
+    position: absolute !important;
+    display: flex !important;
+    text-align: center;
+    z-index: 10;
+    top: 20%;
+    left: 3%;
+}
+
+.left-quote-element img
+{
+    width: 40px;
+    height: 45px;
+    margin: auto;
+    rotate: 5deg;
+}
+
+.right-quote-element
+{
+    background: #4a1d07;
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px;
+    position: absolute !important;
+    display: flex !important;
+    text-align: center;
+    z-index: 10;
+    bottom: 5%;
+    right: 3%;
+}
+
+.right-quote-element img
+{
+    width: 40px;
+    height: 45px;
+    margin: auto;
+    rotate: 185deg;
+}
+
+.testimonial-user
+{
+    gap: 15px;
+}
+
+.testimonial-user img 
+{
+    border-radius: 50%;
+    border: 1px solid silver;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.testimonial-name h5
+{
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+
+.testimonial-name p
+{
+    color: #fbb471;
+}
+
+.testimonial-wrapper .testimonial .description
+{
+    color: #ffffffd1;
+}
+
+.slick-dots
+{
+    left: 0 !important;
+}
+
+.slick-dots li button:before
+{
+    opacity: 0.50;
+    color: #fd6d16;
+}
+
+.slick-dots li.slick-active button:before
+{
+    color: white !important;
+}
+
+.appointment-form .title 
+{
+    font-size: 20px;
+    color: #fffffff0 !important;
+    font-weight: 600;
+}
+
+.appointment-form #datepicker
+{
+    width: 100%;
+    padding: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 1px solid silver;
+    color: #ffffffa6;
+}
+  
+#datepicker::-webkit-calendar-picker-indicator 
+{
+  filter: invert(1);
+}
+
+.appointment-form input[type="radio"] 
+{
+    display: none;
+}
+  
+.hours-lable
+{
+    width: 100%;
+}
+
+/* Style labels to look like radio buttons */
+.appointment-form .hours span 
+{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #ffffff30;
+    color: #ffffffa6;
+    width: 100%;
+    text-align: center;
+}
+  
+/* Style labels when selected */
+.appointment-form input[type="radio"]:checked +  span
+{
+  border: 1px solid silver;
+  color: #fff;
+}
+
+.apoointment-submit , .contact-form-submit
+{
+    background: #000;
+    color: #fbb471;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    font-weight: 600;
+    box-shadow: rgb(255 194 124) 0px 3px 8px;
+}
+
+.apoointment-submit:hover
+{
+    color: #000;
+    background: #fbb471;
+    border: 1px solid #fd6d16;
+}
+
+.contact-form input ,.contact-form textarea
+{
+    width: 100%;
+    padding: 10px;
+    background: #ffffff30;
+    border: 1px solid silver;
+    color: white;
+}
+
+.contact-form input::placeholder ,.contact-form textarea::placeholder
+{
+    color: silver;
+}
+
+.action-btns .add-contact , .action-btns .call , .action-btns .mail
+{
+    background: black;
+    border-radius: 50px;
+    border: 2px solid #faac6b;
+    align-items: center;
+    gap: 5px;
+    box-shadow: #faac6b 0px 0px 12px 0px;
+    cursor: pointer;
+}
+
+.action-btns .add-contact:hover , .action-btns .call:hover , .action-btns .mail:hover
+{
+    border: 2px solid silver;
+    box-shadow: silver 0px 0px 12px 0px;
+}
+
+.action-btns .add-contact h5 , .action-btns .call h5 , .action-btns .mail h5
+{
+    font-size: 16px;
+    color: white;
+}
+
+.video-slider 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video-slide 
+{
+  text-align: center;
+}
+
+.video-slide video 
+{
+  max-width: 100%;
+  height: 300px;
+  width: 100%;
+}
+
+/****************************************** responsive style code ****************************************************/
+
+@media (max-width: 480px)
+{
+    .section-heading , .apoointment-submit, .contact-form-submit
+    {
+        width: 80% !important;
+    }
+    .service-wrapper .icon-wrapper
+    {
+        width: 50%;
+    }
+    .service-main-wrapper::before
+    {
+        top: -8%;
+    }
+    .profile-details .profile-img-name
+    {
+        flex-direction: column;
+    }
+    .user-name-desi
+    {
+        text-align: center;
+    }
+}

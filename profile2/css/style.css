@@ -1,0 +1,535 @@
+body
+{
+    /* background-image: url("../images/bg.jpg");
+    background-size: cover; */
+    background: #E2BFB3;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.logo
+{
+    position: absolute;
+    position: absolute;
+    background: white;
+    padding: 0px 25px 0 15px;
+    border-radius: 0 0 54px;
+}
+
+.logo img 
+{
+    border-radius: 0 0 54px;
+    width: 100%;
+}
+
+.user-profile-main-container
+{
+    max-width: 576px;
+    min-height: 100vh;
+    background: #ebebff;
+}
+
+.user_profile_banner img 
+{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0 0 50px 50px;
+    /* padding-top: 10px; */
+}
+
+.user_details_sec
+{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 20px;
+    margin: -60px 30px 0;
+    position: relative;
+    padding: 20px;
+}
+
+.user_details_sec .user_image img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -20%;
+    box-shadow: rgb(173 175 255 / 54%) 0px 5px 15px;
+    border: 5px solid #adafff;
+}
+.user_image img{
+    padding: 4px;
+    background-color: white;
+}
+.user_details_sec .user_name 
+{
+    font-family: "Roboto", sans-serif;
+    color: #504f56;
+}
+
+.user_details_sec .user_designation
+{
+    font-family: "Roboto", sans-serif;
+    color: #4d52c5;
+    font-weight: 500;
+}
+
+.connect-btns
+{
+    gap: 15px;
+    justify-content: center;
+}
+.connect_link{
+    
+ }
+.action_btn a 
+{
+    transition: all 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+.action_btn
+{
+    background: #fff;
+    padding: 0px 0px;
+    border-radius: 12px;
+    border: 1px solid #fd5c63;
+    
+}
+.connect-img
+{
+    background: #fd5c63;
+    padding: 15px 6px 15px 15px;
+    border-radius: 11px 0 0 11px;
+    
+}
+.action_btn:hover 
+{
+    background: #fd5c63;
+    border: 1px solid #fd5c63;
+    box-shadow: rgba(253, 92, 99, 0.24) 0px 8px 8px;
+    /* border-radius: 50px; */
+    
+}
+
+
+
+.hover-img
+{
+    background: #fff;   
+    padding: 15px 6px 15px 15px;
+    border-radius: 11px 0 0 11px;
+    
+    
+    
+}
+
+.hover-img , .action_btn:hover .connect-img
+{
+    display: none;
+    /* border-radius: 50px 0 0 50px; */
+    
+    
+}
+
+.action_btn:hover .hover-img
+{
+    display: block;
+    /* border-radius: 50px 0 0 50px; */
+    
+}
+
+.action_btn .connect_link p
+{
+    color: #fd5c63;
+    padding: 15px 15px 15px 6px;
+    margin-bottom: 0;
+}
+
+.action_btn:hover .connect_link p
+{
+    color: #fff;
+}  
+
+.social_btns
+{
+    transition: all 0.5s;
+    gap: 20px;
+}
+
+.social_link, .social_link img
+{
+    transition: all 0.5s;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.social_name
+{
+    transition: all 0.5s;
+    margin: 10px 0px 0;
+    color: #62616a !important;
+    font-weight: 500;
+}
+
+.social_link img
+{
+    transition: all 0.5s;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.social_link img:hover
+{
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.social_link:hover .social_name
+{
+    color: #000 !important;
+}
+
+.section_heading
+{
+    font-family: "Roboto", sans-serif;
+    background: #4d52c5eb;
+    color: white;
+    padding: 10px 50px;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid #adafff;
+    box-shadow: rgb(90 95 202) 0px 0px 0px 2px, rgb(90 95 202) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contact_section , .service_section .service
+{
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 20px 15px;
+    margin: 0 30px;
+}
+
+.service_section .service
+{
+    padding: 20px;
+    border: 3px solid #fff;
+}
+
+.service_section .service:hover
+{
+    border: 3px solid #fba3a7;
+}
+
+.contact_section .email_address ,.contact_section
+{
+    gap: 8px;
+}
+
+.contact_section .email_address .contact_img
+{
+    background: #fd5c63;
+    border-radius: 50%;
+    padding: 3px;
+    border: 5px solid #fba3a7;
+}
+
+.contact_section .email_address .contact_img img 
+{
+    padding: 8px;
+}
+
+.contact_section .email_address p
+{
+    color: #4d52c6;
+}
+
+.contact_section .email_address h5
+{
+    font-size: 16px;
+    color: #504f56 !important;
+}
+
+.service_section .service h5 
+{
+    color: #4d52c6;
+}
+
+.service_section .service p
+{
+    color: #504f56 !important;
+}
+
+.slick-slide .gallery-img
+{
+    height: 300px;
+    border-radius: 10px;
+    border: 6px solid #fba3a7;
+}
+
+.slick-next:before, .slick-prev:before
+{
+    color: #fd5c63 !important;
+}
+
+.video-slider 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video-slide 
+{
+  text-align: center;
+  border-radius: 10px;
+}
+
+.video-slide video 
+{
+  max-width: 100%;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  background: white;
+  border: 5px solid #fba3a7;
+}
+
+.slick-dots li button:before
+{
+    opacity: 0.50;
+    color: #504f56 ;
+}
+
+.slick-dots li.slick-active button:before
+{
+    color: #fd5c63 !important;
+}
+
+.testimonial_section .slider-container .testimonial-wrapper
+{
+    background: #ffffff;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+.testimonial_section .slider-container .testimonial-wrapper:hover
+{
+    border: 3px solid #fba3a7;
+}
+
+.testimonial-user
+{
+    gap: 15px;
+}
+
+.testimonial-user img 
+{
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    border: 4px solid #adafff
+}
+
+.testimonial-name h5
+{
+    font-size: 20px;
+    font-weight: 600 !important;
+    color: #4d52c5;
+}
+
+.testimonial-name p
+{
+    color: #504f56 !important;
+}
+
+.testimonial-wrapper .testimonial .description
+{
+    color: #504f56;
+}
+
+.testimonial_section .down_arrow
+{
+    position: absolute;
+    bottom: 17%;
+    left: 47%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+
+.testimonial_section:hover .down_arrow
+{
+    border-top: 20px solid #fba3a7;
+}
+
+.share_profile_form
+{
+    margin: 0 30px;
+}
+
+.share_profile_wrap input
+{
+    border: 2px solid #fba3a7;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    padding: 10px;
+}
+
+.share_profile_wrap button
+{
+    border: 2px solid #fba3a7;
+    border-left: none;
+    border-radius: 0 15px 15px 0;
+    background: #fd5c63;
+}
+
+.share_profile_wrap input:focus-visible , .share_profile_wrap input:active
+{
+    border: 2px solid #adafff !important;
+}
+
+.slick-dots
+{
+    left: 0 !important;
+    bottom: -45px !important;
+}
+
+@media (max-width:480px)
+{
+    .user_details_sec .user_image img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .user_details_sec
+    {
+        margin: -45px 12px 0;
+    }
+    .user_details_sec .user_name
+    {
+        font-size: 20px;
+    }
+    .user_details_sec .user_designation , .user_short_description , .service_section .service p , .action_btn a
+    {
+        font-size: 14px;
+    }
+    .connect_link img
+    {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px !important;
+    }
+    /* .action_btn
+    {
+        padding: 10px;
+    } */
+    .social_name
+    {
+        font-size: 12px;
+    }
+    .connect-img
+    {
+        padding: 10px 3px 10px 10px;
+    }
+    .action_btn .connect_link p
+    {
+        padding: 10px 10px 10px 3px;
+    }
+    .social_link img
+    {
+        width: 60px;
+        height: 60px;
+    }
+    .social_btns
+    {
+        gap: 12px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .logo
+    {
+        padding: 0px 12px 0 8px;
+    }
+    .logo img
+    {
+        width: 88px;
+        height: 88px;
+    }
+    .section_heading , .testimonial-wrapper .testimonial .description , .testimonial-name p
+    {
+        font-size: 14px;
+    }
+    .contact_section .email_address .contact_img img
+    {
+        padding: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    .contact_section, .service_section .service , .share_profile_form
+    {
+        margin: 0 12px;
+    }
+    .service_section .service h5 , .testimonial-name h5
+    {
+        font-size: 18px;
+    }
+    .slick-slide .gallery-img , .video-slide video
+    {
+        height: 250px;
+    }
+    .testimonial-user
+    {
+        margin-bottom: 10px;
+    }
+    .testimonial_section .down_arrow
+    {
+        left: 45%;
+    }
+    .testimonial_section .slider-container
+    {
+        width: 90% !important;
+    }
+}
+
+@media (max-width:370px)
+{
+    .social_btns
+    {
+        gap: 14px;
+    }
+}
+
+@media (max-width:340px)
+{
+    .connect-btns
+    {
+        gap: 8px;
+        margin: 0 11px;
+    }
+    .action_btn .connect_link p
+    {
+        font-size: 12px;
+    }
+    .connect_link img
+    {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+
+
+
