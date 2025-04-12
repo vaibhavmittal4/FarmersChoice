@@ -47,7 +47,7 @@ a:hover {
     background: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     border-radius: 20px;
-    margin: -60px 0px 0;
+    margin: 0px 0px 0;
     padding: 30px;
     width: 100%;
     /* height: px; */
@@ -186,8 +186,8 @@ a:hover {
     background: white;
     border-radius: 15px;
     padding: 20px;
-    margin: 20px 30px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+width:90vw;
 }
 
 .contact_section .email_address {
@@ -214,7 +214,7 @@ a:hover {
 /* Responsive Styling */
 @media (max-width: 480px) {
     .user_details_sec {
-        margin: -45px 12px 0;
+        margin: -45px 0px 0;
     }
 
     .user_name {
@@ -254,10 +254,18 @@ a:hover {
     font-size: 18px;
     padding: 12px 35px;
     border-radius: 20px;
-    background-image: linear-gradient(135deg, #fc5c63, #ff9966);
-    overflow: hidden;
+    background: #009637;
+background: linear-gradient(90deg,rgba(0, 150, 55, 1) 0%, rgba(0, 168, 70, 1) 50%, rgba(0, 140, 75, 1) 100%);
+overflow: hidden;
+
+
+
+
+background: #00de51;
+background: linear-gradient(90deg,rgba(0, 222, 81, 1) 0%, rgba(0, 158, 71, 1) 50%, rgba(4, 207, 109, 1) 100%);
+
     transition: all 0.4s ease;
-    box-shadow: 0 8px 20px rgba(252, 92, 99, 0.5);
+    box-shadow: 0 8px 20px rgba(92, 100, 99, 0.5);
 }
 
 /* Hover state with gradient shift */
@@ -334,6 +342,6 @@ a:hover {
     .button-effect a {
         width: 100%;
         padding: 12px;
-        font-size: 16px;
+        font-size: 20px;
     }
 }
