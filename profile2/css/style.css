@@ -187,7 +187,8 @@ a:hover {
     border-radius: 15px;
     padding: 20px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-width:90vw;
+        margin-left: 5%;
+width:90%;  
 }
 
 .contact_section .email_address {
@@ -216,7 +217,15 @@ width:90vw;
     .user_details_sec {
         margin: -45px 0px 0;
     }
+    .contact_section {
+        background: white;
+        border-radius: 15px;
+        padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width:90vw;
+    margin-left: 0%;
 
+    }
     .user_name {
         font-size: 20px;
     }
